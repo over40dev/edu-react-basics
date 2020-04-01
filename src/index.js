@@ -1,1 +1,5 @@
-// let's go!
+import React from 'react'; // goes in all React components... no worries, it is not duplicated
+import {render} from 'react-dom'; // no difference to bundle to just bring in render from 'react-dom' because it's the only method we need
+import StorePicker from './components/store-picker';
+
+render(<StorePicker/>, document.getElementById('main'));
