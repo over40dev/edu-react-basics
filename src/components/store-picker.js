@@ -4,12 +4,11 @@ export default class StorePicker extends Component {
   render() {
     return (
       <Fragment>
-        <p>I am the StorePicker!!!</p>
         <form className="store-selector">
           {/* do comments like this; must be inside parent tag or treated as returning additional element which is not allowed */ }
           <h2>Please Enter a Store:</h2>
           <input type="text" required placeholder="Store Name"/>
-          <button type="submit">Visit Store ➡️</button>
+          <button type="submit">Visit Store <span role="img" aria-label="arrow">➡️</span></button>
         </form>
       </Fragment>
     );
