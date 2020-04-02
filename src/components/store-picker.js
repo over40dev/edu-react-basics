@@ -18,6 +18,7 @@ export default class StorePicker extends Component {
 
 /* 
  gotchas
+ // html
  - put html inside of ()
  - don't put () right next to return since return is not a function
  - in JSX you can only return one element
@@ -26,5 +27,9 @@ export default class StorePicker extends Component {
 - must use className instead of class when writing HMTL inside JS file because class is a JS keyword
 - HTML comments look different in JS file
 --- use {} - this tells JS that what is inside is pure JS
+// CSS
+- you can use CSS and link in HTML like usual but not necessarily best option
+--- title couple CSS to component by importing (more of an advanced topic)
+--- use linked CSS for beginning
 */
 
